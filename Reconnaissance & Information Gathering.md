@@ -5,13 +5,10 @@ It is gathering info **without touching the target.** You're using third party s
 ![[Pasted image 20260515212148.png|697]]
 
 ==nslookup== - It helps you find the IP address associated with a domain name, locate the domain name connected to an IP, and view specific DNS records like mail servers or text records.
-![[Pasted image 20260515213337.png|397]]
 
 ==whois== - **domain registration lookup tool.** It tells you who owns a domain and all the registration details
-![[Pasted image 20260515213656.png|522]]
 
 whatweb-It is a command-line reconnaissance tool in Linux used to fingerprint website technologies.It identifies web servers, JavaScript libraries, and embedded devices.
-![[Pasted image 20260519234022.png]]
 
 theHarvester-It is a tool to gather bunch of email , ip from domains
 usage: theHarvester -d google.com -b all 
