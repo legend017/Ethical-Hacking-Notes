@@ -3,13 +3,24 @@
 My learning journey in ethical hacking.
 
 ## Progress
-- [ ] Linux Basics
+- [x] Linux Basics
 - [ ] Networking Fundamentals
-- [ ] Information Gathering
+- [x] Information Gathering
 - [ ] Web App Hacking
-- [ ] CTF Challenges
+- [x] CTF Challenges
 ## 🛠️ Tools Built
 * **[simple-port-scanner](./simple-port-scanner)** - A multi-target TCP port scanner written from scratch in Python.
   * **Features:** Supports comma-separated target inputs, handles custom port ranges, and utilizes a `0.5s` socket timeout to efficiently bypass firewalled hosts without freezing.
   * **Learning Outcomes:** Mastered network sockets (`socket.connect_ex`), socket lifecycles, and nested Python loops.
+ 
+## HTB Starting Point Progress
+
+| Box | Protocol | Status |
+|-----|----------|--------|
+| Meow | Telnet | ✅ Rooted |
+| Fawn | FTP | ✅ Rooted |
+| Dancing | SMB | ✅ Rooted |
+| Redeemer | Redis | ✅ Rooted |
+| Cap | HTTP/PCAP | ✅ Rooted |
+
 ## Started: May 2026
