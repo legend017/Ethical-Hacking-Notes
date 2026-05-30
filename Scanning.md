@@ -106,7 +106,7 @@
 
 > **Lesson:** Any unencrypted protocol broadcasts data to anyone on the network.
 
-###**[simple-port-scanner.py](./simple-port-scanner.py)** Discovery
+###**[simple-port-scanner](./simple-port-scanner.py)** Discovery
 - `connect_ex()` returns `0` when a port is open
 - Scanner runs fast on Kali Linux, but slow on Windows
 - Windows limits half-open connections and silently drops packets on closed ports
