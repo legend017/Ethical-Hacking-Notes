@@ -15,12 +15,19 @@ My learning journey in ethical hacking.
  
 ## HTB Starting Point Progress
 
+## HTB Starting Point Progress
+
 | Box | Protocol | Status |
 |-----|----------|--------|
 | Meow | Telnet | ✅ Rooted |
 | Fawn | FTP | ✅ Rooted |
 | Dancing | SMB | ✅ Rooted |
 | Redeemer | Redis | ✅ Rooted |
-| Cap | HTTP/PCAP | ✅ Rooted |
+| Appointment | SQL Injection | ✅ Rooted |
+| Sequel | MySQL | ✅ Rooted |
+| Crocodile | FTP + Web | ✅ Rooted |
+| Responder | LFI + NTLM Hash | ✅ Rooted |
+| Three | S3 Bucket + RCE | ✅ Rooted |
+| Cap | IDOR + PCAP | ✅ Rooted |
 
 ## Started: May 2026
