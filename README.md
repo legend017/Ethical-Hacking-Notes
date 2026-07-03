@@ -45,6 +45,5 @@ My learning journey in ethical hacking.
 5. [Exploitation & Gaining Access](6.Exploitation%20%26%20Gaining-Access.md)
 6. [Payloads & Trojans](7.Gaining-Access%28Virus%2C%20Trojans.%20Payloads.%29.md)
 7. [Post-Exploitation](8.Post-Exploitation.md)
-8. [HTB Machine Write-ups](https://github.com/legend017/Ethical-Hacking-Notes#-htb-machine-write-ups)
 
 ## Started: May 2026
