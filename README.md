@@ -4,7 +4,7 @@ My learning journey in ethical hacking.
 
 ## 🎯 Learning Roadmap
 - [x] Linux Basics
-- [ ] Networking Fundamentals
+- [x] Networking Fundamentals
 - [x] Information Gathering
 - [x] Vulnerability Analysis
 - [x] Initial Exploitation & Payloads (with encoding)
@@ -20,8 +20,6 @@ My learning journey in ethical hacking.
   * **Features:** Supports comma-separated target inputs, handles custom port ranges, and utilizes a `0.5s` socket timeout to efficiently bypass firewalled hosts without freezing.
   * **Learning Outcomes:** understood network sockets (`socket.connect_ex`), socket lifecycles, and nested Python loops.
  
-## HTB Starting Point Progress
-
 ## HTB Starting Point Progress
 
 | Box | Protocol | Status |
