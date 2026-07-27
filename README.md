@@ -20,7 +20,7 @@ My learning journey in ethical hacking.
   * **Features:** Supports comma-separated target inputs, handles custom port ranges, and utilizes a `0.5s` socket timeout to efficiently bypass firewalled hosts without freezing.
 * **Learning Outcomes:** understood network sockets (`socket.connect_ex`), socket lifecycles, and nested Python loops.
   
-  * **[Python-Backdoor](./Python-Backdoor/)** - A custom reverse shell built from scratch in Python.
+* **[Python-Backdoor](./Python-Backdoor/)** - A custom reverse shell built from scratch in Python.
   * **Features:** Command execution, directory traversal, JSON-based communication for reliable data transfer.
   * **Learning Outcomes:** Understood socket programming (server/client model), subprocess execution, JSON encoding/decoding over sockets.
  
