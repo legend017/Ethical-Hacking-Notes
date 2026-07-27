@@ -11,6 +11,7 @@ while True:
         target.send(json.dumps(command).encode())
         if command == 'quit':
                 break
-        result = json.loads(target.recv(65000).decode())
-        print(result)
+        else:
+                result = json.loads(target.recv(65000).decode())
+                print(result)
 
