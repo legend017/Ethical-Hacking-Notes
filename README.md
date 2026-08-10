@@ -51,6 +51,6 @@ My learning journey in ethical hacking.
 5. [Exploitation & Gaining Access](6.Exploitation%20%26%20Gaining-Access.md)
 6. [Payloads & Trojans](7.Gaining-Access%28Virus%2C%20Trojans.%20Payloads.%29.md)
 7. [Post-Exploitation](8.Post-Exploitation.md)
-8. [Web Application Pentesting](Web-Application-Pentesting/notes.md)
+8. [Web Application Pentesting](Web-Application-Pentesting.md)
 
 ## Started: May 2026
