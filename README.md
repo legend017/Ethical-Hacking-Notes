@@ -1,6 +1,9 @@
 # Ethical Hacking Notes
-
 My learning journey in ethical hacking.
+
+## 🔥 Currently Working On
+- MITM Attacks
+- Wireless Pentesting
 
 ## 🎯 Learning Roadmap
 - [x] Linux Basics
@@ -9,35 +12,36 @@ My learning journey in ethical hacking.
 - [x] Vulnerability Analysis
 - [x] Initial Exploitation & Payloads (with encoding)
 - [x] Post-Exploitation (persistence, privesc)
+- [x] Web Application Pentesting (SQLi, XSS, CSRF, Command Injection, Brute Force)
+- [ ] Full OWASP Top 10 (2021)
 - [ ] Active Directory & Lateral Movement
-- [ ] Web Application Pentesting (OWASP Top 10)
 - [ ] Bypassing Endpoint Protection (Defender/Firewall ON)
-- [ ] Web App Hacking
+- [ ] MITM Attacks
+- [ ] Wireless Pentesting
 - [x] CTF Challenges
-- [x] Python Backdoor (reverse shell with command execution, cd handling, JSON communication)
+
 ## 🛠️ Tools Built
 * **[simple-port-scanner](./simple-port-scanner.py)** - A multi-target TCP port scanner written from scratch in Python.
   * **Features:** Supports comma-separated target inputs, handles custom port ranges, and utilizes a `0.5s` socket timeout to efficiently bypass firewalled hosts without freezing.
-   * **Learning Outcomes:** understood network sockets (`socket.connect_ex`), socket lifecycles, and nested Python loops.
-  
+  * **Learning Outcomes:** Understood network sockets (`socket.connect_ex`), socket lifecycles, and nested Python loops.
+
 * **[Python-Backdoor](./Python-Backdoor/)** - A custom reverse shell built from scratch in Python.
   * **Features:** Command execution, directory traversal, JSON-based communication for reliable data transfer.
   * **Learning Outcomes:** Understood socket programming (server/client model), subprocess execution, JSON encoding/decoding over sockets.
- 
-## HTB Starting Point Progress
 
-| Box | Protocol | Status |
-|-----|----------|--------|
-| Meow | Telnet | ✅ Rooted |
-| Fawn | FTP | ✅ Rooted |
-| Dancing | SMB | ✅ Rooted |
-| Redeemer | Redis | ✅ Rooted |
-| Appointment | SQL Injection | ✅ Rooted |
-| Sequel | MySQL | ✅ Rooted |
-| Crocodile | FTP + Web | ✅ Rooted |
-| Responder | LFI + NTLM Hash | ✅ Rooted |
-| Three | S3 Bucket + RCE | ✅ Rooted |
-| Cap | IDOR + PCAP | ✅ Rooted |
+## HTB Starting Point Progress
+| Box | Protocol | Key Technique | Status |
+|-----|----------|---------------|--------|
+| Meow | Telnet | Default credentials | ✅ Rooted |
+| Fawn | FTP | Anonymous login | ✅ Rooted |
+| Dancing | SMB | Null session | ✅ Rooted |
+| Redeemer | Redis | Unauthenticated access | ✅ Rooted |
+| Appointment | SQL Injection | Login bypass | ✅ Rooted |
+| Sequel | MySQL | Unauthenticated access | ✅ Rooted |
+| Crocodile | FTP + Web | Credentials reuse | ✅ Rooted |
+| Responder | LFI + NTLM Hash | Hash capture + crack | ✅ Rooted |
+| Three | S3 Bucket + RCE | Subdomain + PHP shell | ✅ Rooted |
+| Cap | IDOR + PCAP | Wireshark + privesc | ✅ Rooted |
 
 ## 📖 Table of Contents
 1. [Linux Basics](1.Linux-Basics.md)
@@ -47,5 +51,6 @@ My learning journey in ethical hacking.
 5. [Exploitation & Gaining Access](6.Exploitation%20%26%20Gaining-Access.md)
 6. [Payloads & Trojans](7.Gaining-Access%28Virus%2C%20Trojans.%20Payloads.%29.md)
 7. [Post-Exploitation](8.Post-Exploitation.md)
+8. [Web Application Pentesting](Web-Application-Pentesting/notes.md)
 
 ## Started: May 2026
