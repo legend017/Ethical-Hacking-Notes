@@ -7,7 +7,11 @@ Custom directory enumeration tool built from scratch in Python.
 - Status code display (200, 301, 403)
 
 ## Usage
-python3 dirfinder.py
+python3 dir-finder.py
+
+## Example Usage
+python3 dir-finder.py
+
 ````
 ┌──(kali㉿kali)-[~]
 └─$ /usr/bin/python /home/kali/Downloads/12.py                                                       
@@ -35,3 +39,5 @@ Enter the path to directory list: /usr/share/wordlists/dirb/common.txt
 [+] [200] Found Directory: http://192.168.18.243/dvwa/security
 [+] [200] Found Directory: http://192.168.18.243/dvwa/setup
 ````
+## Target tested
+DVWA on Metasploitable2
