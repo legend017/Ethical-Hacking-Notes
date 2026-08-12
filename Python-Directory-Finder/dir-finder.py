@@ -16,4 +16,4 @@ with open(dir_list, 'r') as f:
         response = requests.get(url)
 
         if response:
-            print(f"[+] Found Directory: {url}")
+            print(f"[+] [{response.status_code}] Found Directory: {url}")
