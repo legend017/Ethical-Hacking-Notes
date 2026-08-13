@@ -21,13 +21,21 @@ My learning journey in ethical hacking.
 - [x] CTF Challenges
 
 ## 🛠️ Tools Built
-* **[simple-port-scanner](./simple-port-scanner.py)** - A multi-target TCP port scanner written from scratch in Python.
+* **[simple-port-scanner](./Python-Port-Scanner/)** - A multi-target TCP port scanner written from scratch in Python.
   * **Features:** Supports comma-separated target inputs, handles custom port ranges, and utilizes a `0.5s` socket timeout to efficiently bypass firewalled hosts without freezing.
   * **Learning Outcomes:** Understood network sockets (`socket.connect_ex`), socket lifecycles, and nested Python loops.
 
 * **[Python-Backdoor](./Python-Backdoor/)** - A custom reverse shell built from scratch in Python.
   * **Features:** Command execution, directory traversal, JSON-based communication for reliable data transfer.
   * **Learning Outcomes:** Understood socket programming (server/client model), subprocess execution, JSON encoding/decoding over sockets.
+
+ * **[Python-Bruteforcer](./Python-Bruteforcer/)** - Custom brute force tool supporting GET/POST methods with cookie support.
+  * **Features:** GET and POST support, cookie authentication, custom wordlists.
+  * **Learning Outcomes:** Understood HTTP requests, form data, cookie handling with requests library.
+
+* **[Python-Directory-Finder](./Python-Directory-Finder/)** - Custom directory enumeration tool built from scratch.
+  * **Features:** Custom wordlist support, status code display.
+  * **Learning Outcomes:** Understood HTTP status codes, URL construction, directory brute forcing logic.
 
 ## HTB Starting Point Progress
 | Box | Protocol | Key Technique | Status |
