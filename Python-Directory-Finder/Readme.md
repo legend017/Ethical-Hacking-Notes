@@ -2,7 +2,6 @@
 Custom directory enumeration tool built from scratch in Python.
 
 ## Features
-- Multi-threaded scanning (fast)
 - Custom wordlist support
 - Status code display (200, 301, 403)
 
