@@ -16,8 +16,8 @@ My learning journey in ethical hacking.
 - [ ] Full OWASP Top 10 (2021)
 - [ ] Active Directory & Lateral Movement
 - [ ] Bypassing Endpoint Protection (Defender/Firewall ON)
-- [ ] MITM Attacks
-- [ ] Wireless Pentesting
+- [x] MITM Attacks
+- [x] Wireless Pentesting
 - [x] CTF Challenges
 
 ## 🛠️ Tools Built
