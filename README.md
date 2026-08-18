@@ -26,16 +26,14 @@ My complete learning journey in ethical hacking
 - [ ] Bypassing Endpoint Protection (Defender/Firewall ON)
 
 ---
-
-## 🛠️ Custom Tools Built
+### 🛠️ Projects (Custom Tools)
 
 | Tool | Description | Key Learning |
 |------|-------------|--------------|
-| **Simple Port Scanner** | Multi-target TCP scanner with custom ranges | Socket programming, connect_ex(), timeout handling |
-| **Python Backdoor** | Reverse shell with JSON communication | Socket server/client, subprocess execution |
-| **Python Bruteforcer** | GET/POST brute force with cookie support | HTTP requests, form data, cookie handling |
-| **Python Directory Finder** | Wordlist-based directory enumeration | HTTP status codes, URL construction |
-
+| [Python Port Scanner](Projects/Python-Port-Scanner/) | Multi-target TCP scanner with custom ranges | Socket programming, `connect_ex()`, timeout handling |
+| [Python Backdoor](Projects/Python-Backdoor/) | Reverse shell with JSON communication | Socket server/client, subprocess execution |
+| [Python Bruteforcer](Projects/Python-Bruteforcer/) | GET/POST brute force with cookie support | HTTP requests, form data, cookie handling |
+| [Python Directory Finder](Projects/Python-Directory-Finder/) | Wordlist-based directory enumeration | HTTP status codes, URL construction |
 ---
 
 ## 🎯 HTB Starting Point Progress
