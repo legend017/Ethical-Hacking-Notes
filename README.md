@@ -73,17 +73,17 @@ My complete learning journey in ethical hacking
 
 ---
 
-## 📖 Table of Contents
-1. [Linux Basics](1.Linux-Basics.md)
-2. [Reconnaissance & Information Gathering](2.Reconnaissance%20%26%20Information%20Gathering.md)
-3. [Scanning](3.Scanning.md)
-4. [Vulnerability Analysis](5.Vulnerability-Analysis.md)
-5. [Exploitation & Gaining Access](6.Exploitation%20%26%20Gaining-Access.md)
-6. [Payloads & Trojans](7.Gaining-Access%28Virus%2C%20Trojans.%20Payloads.%29.md)
-7. [Post-Exploitation](8.Post-Exploitation.md)
-8. [Web Application Pentesting](9.Web-Application-Pentesting.md)
-9. [MITM Attacks](10.MITM%28Man-In-The-Middle-Attack%29.md)
-10. [Wireless Cracking](11.Wireless-Cracking.md)
+### Fundamentals (10 Modules)
+01. [Linux Basics](Fundamentals/01.Linux-Basics.md)
+02. [Reconnaissance & Information Gathering](Fundamentals/02.Reconnaissance%20%26%20Information%20Gathering.md)
+03. [Scanning & Enumeration](Fundamentals/03.Scanning.md)
+04. [Vulnerability Analysis](Fundamentals/04.Vulnerability-Analysis.md)
+05. [Exploitation & Gaining Access](Fundamentals/05.Exploitation%20%26%20Gaining-Access.md)
+06. [Payloads & Trojans](Fundamentals/06.Gaining-Access%28Virus%2C%20Trojans.%20Payloads.%29.md)
+07. [Post-Exploitation](Fundamentals/07.Post-Exploitation.md)
+08. [Web Application Pentesting](Fundamentals/08.Web-Application-Pentesting.md)
+09. [MITM (Man-In-The-Middle) Attacks](Fundamentals/09.MITM%28Man-In-The-Middle-Attack%29.md)
+10. [Wireless Cracking (WPA2)](Fundamentals/10.Wireless-Cracking.md)
 
 ---
 
