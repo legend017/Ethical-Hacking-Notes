@@ -97,6 +97,14 @@ My complete learning journey in ethical hacking
    - Business logic flaws (price manipulation, 2FA bypass)
    - Modern web (JWT, GraphQL, CORS, SSRF)
 
-*Started: December 2025 | Current: August 2026*
+*Started: December 2025 (Linux basics) | Ethical Hacking: May 2026 | Current: August 2026*
+
+---
+
+## ⭐ Support
+
+If these notes helped you in your learning journey, consider giving the repo a star — it helps others find it too.
+
+**[⭐ Star this repo](https://github.com/legend017/Ethical-Hacking-Notes)**
 
 > *"Documenting the journey from complete beginner to bug bounty hunter."*
