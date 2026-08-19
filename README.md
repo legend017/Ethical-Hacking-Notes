@@ -107,4 +107,7 @@ If these notes helped you in your learning journey, consider giving the repo a s
 
 **[⭐ Star this repo](https://github.com/legend017/Ethical-Hacking-Notes)**
 
+## 📫 Connect With Me
+- [LinkedIn](https://www.linkedin.com/in/rishi-yadav-543651355/)
+
 > *"Documenting the journey from complete beginner to bug bounty hunter."*
