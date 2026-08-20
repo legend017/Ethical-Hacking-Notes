@@ -36,20 +36,48 @@ My complete learning journey in ethical hacking
 | [Python Directory Finder](Projects/Python-Directory-Finder/) | Wordlist-based directory enumeration | HTTP status codes, URL construction |
 ---
 
-## 🎯 HTB Starting Point Progress
+## 🎯 HTB Starting Point Progress (Free Boxes)
 
+### Tier 0 - Foundations (100% Complete)
 | Box | Protocol | Key Technique | Status |
 |-----|----------|---------------|--------|
 | Meow | Telnet | Default credentials (root:blank) | ✅ |
 | Fawn | FTP | Anonymous login | ✅ |
 | Dancing | SMB | Null session | ✅ |
 | Redeemer | Redis | Unauthenticated access | ✅ |
+
+### Tier 1 - Fundamental Exploitation (100% Complete)
+| Box | Protocol | Key Technique | Status |
+|-----|----------|---------------|--------|
 | Appointment | SQL Injection | Login bypass | ✅ |
 | Sequel | MySQL | Unauthenticated access | ✅ |
 | Crocodile | FTP + Web | Credentials reuse | ✅ |
 | Responder | LFI + NTLM | Hash capture + crack | ✅ |
 | Three | S3 Bucket + RCE | Subdomain + PHP shell | ✅ |
-| Cap | IDOR + PCAP | Wireshark + cap_setuid privesc | ✅ |
+
+### Tier 2 - Advanced Exploitation (1 Free Box Complete)
+| Box | Protocol | Key Technique | Status |
+|-----|----------|---------------|--------|
+| Oopsie | Web + IDOR + SUID | IDOR for admin access, PATH Hijacking privesc | ✅ |
+
+---
+
+## 🎯 Other HTB Machines Rooted
+
+| Machine | Difficulty | Protocol | Key Technique | Status |
+|---------|------------|----------|---------------|--------|
+| **Cap** | Medium | IDOR + PCAP | Wireshark Analysis, cap_setuid privesc | ✅ |
+
+---
+
+## 📊 Summary
+
+| Category | Completed | Status |
+|----------|-----------|--------|
+| **Tier 0 (Starting Point)** | 4/4 | ✅ |
+| **Tier 1 (Starting Point)** | 5/5 | ✅ |
+| **Tier 2 (Starting Point)** | 1/4 | ✅ |
+| **Other HTB Machines** | Cap | ✅ |
 
 ---
 
