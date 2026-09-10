@@ -20,6 +20,7 @@ My complete learning journey in ethical hacking
 - [x] MITM Attacks (ARP Spoofing, Bettercap)
 - [x] Wireless Pentesting (WPA2 Cracking, Aircrack-ng, Hashcat)
 - [x] HTB Starting Point (10+ boxes rooted)
+- [ ] Web Security & Bug Bounty (In Progress)
 
 ### In Progress
 - [ ] Active Directory & Lateral Movement
@@ -112,6 +113,9 @@ My complete learning journey in ethical hacking
 08. [Web Application Pentesting](Fundamentals/08.Web-Application-Pentesting.md)
 09. [MITM (Man-In-The-Middle) Attacks](Fundamentals/09.MITM%28Man-In-The-Middle-Attack%29.md)
 10. [Wireless Cracking (WPA2)](Fundamentals/10.Wireless-Cracking.md)
+
+### Web Security & Bug Bounty (In Progress)
+* [Web Security & Bug Bounty Notes](Web-Security-Bug-Bounty/)
 
 ---
 
